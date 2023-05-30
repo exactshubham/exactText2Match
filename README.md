@@ -1,16 +1,14 @@
-                Project
+#                     Project
 
 
 
-Here is the task that needs to be submitted by 30 may 2023 at 06:15 PM.
-
-
-Objective: Create a web app that uses a search input and any Free Image
+## Objective:
+Create a web app that uses a search input and any Free Image
 API to display Images. One can then add some custom style Captions on
 the Images and give a download button that will download the updated
 image with a Caption.
 
-Algorithm:
+## Algorithm:
 ->Design a search page, which will consist of an input box to search for any
 keyword and a thumbnail like a result area were the results of the search
 the query will be displayed.
@@ -55,7 +53,7 @@ values in an array format in order of their occurrence. for example: if I
 had the Image layer at the bottom, then Shape Layer and then Text Layer then the Array would be [Image][Shape][Text]
 
 
-Submit Procedure:
+## Submit Procedure:
 create an account here ---
 https://codesandbox.io/ <https://codesandbox.io/> 
 <https://codesandbox.io/ <https://codesandbox.io/>> or 
@@ -64,12 +62,12 @@ https://codepen.io/ <https://codepen.io/>
 deploy your work.
 
 
-Layout:
+## Layout:
 A sketch of the Layout has been Attached, You can follow that to design
 your App.
 
 
-Free Images Api: (Remember to use anyone)
+## Free Images Api: (Remember to use anyone)
 https://unsplash.com/developers <https://unsplash.com/developers> 
 <https://unsplash.com/developers <https://unsplash.com/developers>>
 https://pixabay.com/api/docs/ <https://pixabay.com/api/docs/> 
@@ -81,11 +79,8 @@ https://www.flickr.com/services/api/
 <https://www.flickr.com/services/api/ 
 <https://www.flickr.com/services/api/>>
 
-Fabric.js Documentation:
+## Fabric.js Documentation:
 http://fabricjs.com/ <http://fabricjs.com/> <http://fabricjs.com/ 
 <http://fabricjs.com/>>
 
 
-Last Time to Submit:
-
-30 may 2023 at 06:15 PM.
