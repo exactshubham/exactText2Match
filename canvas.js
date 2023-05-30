@@ -10,14 +10,9 @@ function loadImage(imageURL) {
 }
 
 function addCaptions() {
-  // Get the selected image URL from the query parameter
-  // const urlParams = new URLSearchParams(window.location.search);
-  // const imageURL = decodeURIComponent(urlParams.get('imageURL'));
 
   // Load the image onto the canvas
-  // fabric.Image.fromURL(imageURL, (img) => {
-  //   img.scaleToWidth(canvas.width);
-  //   canvas.add(img);
+  fabric.Image.fromURL(imageURL, (img) => {
 
     // Add caption text
     const caption = new fabric.Textbox('Your Caption', {
@@ -30,11 +25,13 @@ function addCaptions() {
     canvas.add(caption);
 
     canvas.renderAll();
-  /*})*/;
+  });
 }
 
 function addShape(shape) {
+
   // Add shape based on the provided type
+
   switch (shape) {
     case 'rectangle':
       const rectangle = new fabric.Rect({
@@ -167,13 +164,5 @@ downloadButton.addEventListener('click', () => {
 // Trigger the download
   downloadLink.click();
 });
-// const downloadButton = document.getElementById('download-btn');
-// downloadButton.addEventListener('click', () => {
-//   const dataURL = canvas.toDataURL('image/png');
-//   const downloadLink = document.createElement('a');
-//   downloadLink.href = dataURL;
-//   downloadLink.download = 'updated-image.png';
-//   downloadLink.click();
-// });
 
 
