@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title >exactText2Match</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="canvas.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: orange;">Image Canvas</h1>
+    <canvas id="canvas" width="700" height="400"></canvas> <br> <br>
+    <a id="download-link" href="#" download="canvas.png" style="display: none;">Download</a> 
+    <button id="add-captions-btn">Add Captions</button>
+    <div id="shapes-container">
+      <button class="shape-btn" data-shape="triangle">Triangle</button>
+      <button class="shape-btn" data-shape="circle">Circle</button>
+      <button class="shape-btn" data-shape="rectangle">Rectangle</button>
+      <button class="shape-btn" data-shape="polygon">Polygon</button> 
+
+
+      <button id="log-layers-btn">Log Layers</button>
+
+      <button id="delete-btn" >Delete</button> 
+    </div>
+
+    <button id="download-btn">Download</button>
+  </div>
+
+  <script src="fabric.min.js"></script>
+  <script src="canvas.js"></script>
+</body>
+</html>
