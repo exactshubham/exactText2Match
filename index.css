@@ -1,6 +1,6 @@
 .container {
     max-width: auto;
-    margin: 0 auto;
+    /* margin: 0 auto;  */
     padding-top: 20px;
     background-color:black
   }
@@ -62,10 +62,14 @@
   background-color: red;
 }
 
-#sand-image{
-  width: 100%;
+#sand-image {
+  position: fixed;
+  top: 20;
+  left: 3;
+  width: 98.8vw;
+  height: 100vh;
+  object-fit: cover;
 }
-
 .hidden {
   display: none;
 }
